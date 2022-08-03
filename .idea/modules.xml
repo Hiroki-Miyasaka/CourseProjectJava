@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CourseProject.iml" filepath="$PROJECT_DIR$/CourseProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wmad202-2022/wmad202-2022.iml" filepath="$PROJECT_DIR$/wmad202-2022/wmad202-2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wmad202-courseProject1/wmad202-courseProject1.iml" filepath="$PROJECT_DIR$/wmad202-courseProject1/wmad202-courseProject1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wmad202-courseProject2/wmad202-courseProject2.iml" filepath="$PROJECT_DIR$/wmad202-courseProject2/wmad202-courseProject2.iml" />
+    </modules>
+  </component>
+</project>
