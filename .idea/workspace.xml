@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="486e8fdf-9e28-44ae-a810-cfa17b21c460" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CourseProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-2022/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-2022/src/ca/ciccc/main/WMAD202Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-2022/wmad202-2022.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-courseProject1/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-courseProject1/src/ca/ciccc/wmad/project1/main/Project1Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-courseProject1/src/ca/ciccc/wmad/project1/problem1/Peaks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-courseProject1/src/ca/ciccc/wmad/project1/problem1/Place.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-courseProject1/src/ca/ciccc/wmad/project1/problem1/Places.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-courseProject1/src/ca/ciccc/wmad/project1/problem1/TestProblem1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-courseProject1/src/ca/ciccc/wmad/project1/problem1/Valleys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-courseProject1/wmad202-courseProject1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-courseProject2/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-courseProject2/src/ca/ciccc/wmad/project2/main/Project2Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-courseProject2/wmad202-courseProject2.iml" afterDir="false" />
-    </list>
+    <list default="true" id="486e8fdf-9e28-44ae-a810-cfa17b21c460" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
