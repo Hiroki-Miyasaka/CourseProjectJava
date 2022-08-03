@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="486e8fdf-9e28-44ae-a810-cfa17b21c460" name="Changes" comment="" />
+    <list default="true" id="486e8fdf-9e28-44ae-a810-cfa17b21c460" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/wmad202-courseProject1/src/ca/ciccc/wmad/project1/problem1/Peaks.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-courseProject1/src/ca/ciccc/wmad/project1/problem1/Peaks.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

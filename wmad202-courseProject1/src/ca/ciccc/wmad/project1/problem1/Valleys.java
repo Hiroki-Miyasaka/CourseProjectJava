@@ -12,6 +12,10 @@ public class Valleys extends Places{
         this.nCastles = nCastles;
     }
 
+    /* Find how many valleys there are
+        @param n[] -> array that contains a list of integers
+        @param nSize -> A list of length
+     */
     @Override
     public int[] findNumbers(int[] n, int nSize){
         int controller = 0;
@@ -30,6 +34,9 @@ public class Valleys extends Places{
         return newN;
     }
 
+    /* How many castles we'll be able to construct
+        @param n[] -> array that contains a list of integers
+     */
     @Override
     public int castlesNumbers(int[] n){
         int result = 0;
