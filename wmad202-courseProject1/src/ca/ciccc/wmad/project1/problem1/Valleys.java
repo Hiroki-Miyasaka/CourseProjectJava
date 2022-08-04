@@ -15,6 +15,7 @@ public class Valleys extends Places{
     /* Find how many valleys there are
         @param n[] -> array that contains a list of integers
         @param nSize -> A list of length
+        @return newN -> A list which contain all the valleys
      */
     @Override
     public int[] findNumbers(int[] n, int nSize){
@@ -36,6 +37,7 @@ public class Valleys extends Places{
 
     /* How many castles we'll be able to construct
         @param n[] -> array that contains a list of integers
+        @return result -> A list which contain how many castles we can construct
      */
     @Override
     public int castlesNumbers(int[] n){
