@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="486e8fdf-9e28-44ae-a810-cfa17b21c460" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/wmad202-courseProject2/src/ca/ciccc/wmad/project2/problem2/TestProblem2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-2022/src/ca/ciccc/main/WMAD202Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-2022/src/ca/ciccc/main/WMAD202Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-courseProject2/src/ca/ciccc/wmad/project2/main/Project2Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-courseProject2/src/ca/ciccc/wmad/project2/main/Project2Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-courseProject2/src/ca/ciccc/wmad/project2/problem2/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-courseProject2/src/ca/ciccc/wmad/project2/problem2/Battle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-courseProject2/src/ca/ciccc/wmad/project2/problem2/Rules.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-courseProject2/src/ca/ciccc/wmad/project2/problem2/Rules.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-courseProject2/src/ca/ciccc/wmad/project2/problem2/Transformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-courseProject2/src/ca/ciccc/wmad/project2/problem2/Transformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wmad202-courseProject2/src/ca/ciccc/wmad/project2/problem2/Judge.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-courseProject2/src/ca/ciccc/wmad/project2/problem2/Judge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
