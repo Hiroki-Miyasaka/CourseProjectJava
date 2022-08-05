@@ -5,7 +5,7 @@ public class Transformer extends Robot {
     private String nameOfRobot;
     private String team;
 
-    public Transformer(Integer strength, Integer intelligence, Integer speed, Integer endurance, Integer rank, Integer courage, Integer firepower, Integer skill, String nameOfRobot, String team) {
+    public Transformer(String nameOfRobot, String team, Integer strength, Integer intelligence, Integer speed, Integer endurance, Integer rank, Integer courage, Integer firepower, Integer skill) {
         super(strength, intelligence, speed, endurance, rank, courage, firepower, skill);
         this.nameOfRobot = nameOfRobot;
         this.team = team;
@@ -25,6 +25,10 @@ public class Transformer extends Robot {
 
     public String getTeam() {
         return team;
+    }
+
+    public void getInformationOfTransformer(){
+        System.out.println("Transformer name is " + this.getNameOfRobot() + "\n" + "Transformer type is " + this.getTeam());
     }
 
     @Override
