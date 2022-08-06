@@ -84,6 +84,8 @@ public class Battle implements Rules{
 
             if(this.specialRules(autobot, deception) == 2){
                 countBattles += 1;
+                this.winnerOfAutobots.clear();
+                this.winnerOfDeceptions.clear();
                 break;
             } else if(this.specialRules(autobot, deception) == 1){
                 countBattles += 1;
@@ -110,9 +112,19 @@ public class Battle implements Rules{
         else return "Deceptions";
     }
 
+    public String getTheloserTeamName(){
+        if(winnerOfAutobots.size() > winnerOfDeceptions.size()) return "Deceptions";
+        else return "Autobots";
+    }
+
     public ArrayList<Transformer> getTheWinnerTeamList(){
         if(winnerOfAutobots.size() > winnerOfDeceptions.size()) return winnerOfAutobots;
         else return winnerOfDeceptions;
+    }
+
+    public ArrayList<Transformer> getTheSurvivingMemberList(){
+        if(winnerOfAutobots.size() > winnerOfDeceptions.size()) return winnerOfDeceptions;
+        else return winnerOfAutobots;
     }
 
     public ArrayList<Transformer> getWinnerOfAutobots() {

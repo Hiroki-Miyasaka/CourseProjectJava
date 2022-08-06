@@ -25,7 +25,34 @@ public class Judge {
             winners += theWinnerTeamList.get(i).getNameOfRobot() + " ";
         }
 
-        System.out.println("(" + theWinnerTeam + "): " + winners);
+        System.out.println("The winning team: (" + theWinnerTeam + "): " + winners);
+
+        String theLoserTeam = b.getTheloserTeamName();
+        String survivor = "The surviving members of the losing team: ";
+        survivor += "(" + theLoserTeam + "): ";
+        ArrayList<Transformer> theSurvivingMember = b.getTheSurvivingMemberList();
+
+        if(theLoserTeam == "Autobots"){
+            for(int i = 0; i < theSurvivingMember.size(); i++){
+                survivor += theSurvivingMember.get(i).getNameOfRobot() + " ";
+            }
+            if(battles < autobots.size()){
+                for(int i = battles + 1; i < autobots.size(); i++){
+                    survivor += autobots.get(i).getNameOfRobot() + " ";
+                }
+            }
+            System.out.println(survivor);
+        } else{
+            for(int i = 0; i < theSurvivingMember.size(); i++){
+                survivor += theSurvivingMember.get(i).getNameOfRobot() + " ";
+            }
+            if(battles < deceptions.size()){
+                for(int i = battles + 1; i < deceptions.size(); i++){
+                    survivor += deceptions.get(i).getNameOfRobot() + " ";
+                }
+            }
+            System.out.println(survivor);
+        }
 
     }
 
