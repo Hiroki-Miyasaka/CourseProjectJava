@@ -12,15 +12,23 @@ public class Judge {
         this.deceptions = deceptions;
     }
 
-    public int getTheNumberOfBattles(){
-        if(autobots.size() >= deceptions.size()){
-            return deceptions.size();
+    public void printInformationOfResult(){
+
+        Battle b = new Battle();
+        int battles = b.goToBattleAndCountBattles(autobots, deceptions);
+        String theWinnerTeam = b.getTheWinnerTeamName();
+        ArrayList<Transformer> theWinnerTeamList = b.getTheWinnerTeamList();
+        System.out.println("The number of battles: " + battles);
+        String winners = "";
+
+        for(int i = 0; i < theWinnerTeamList.size(); i++){
+            winners += theWinnerTeamList.get(i).getNameOfRobot() + " ";
         }
-        return autobots.size();
-    }
 
-    public String goToBattle(){
+        System.out.println("(" + theWinnerTeam + "): " + winners);
 
     }
+
+
 
 }
