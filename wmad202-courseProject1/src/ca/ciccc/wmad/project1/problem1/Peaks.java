@@ -12,20 +12,36 @@ public class Peaks extends Places{
         this.nCastles = nCastles;
     }
 
-    /* Find how many peaks there are
-        @param n[] -> array that contains a list of integers
-        @param nSize -> A list of length
-        @return newN -> A list which contain all the peaks
+    public int getCastles() {
+        return this.nCastles;
+    }
+
+    /*Verify if the number is the peak between 2 numbers
+    @param n -> first number
+    @param peak -> number to be checked
+    @param n2 -> next number
+    */
+    public boolean verifyPeak(int n, int peak, int n2) {
+        if(peak >= n && peak >= n2) {
+            return true;
+        }
+        return false;
+    }
+
+    /*Find the peak or the peak's of an array and create a new array with them
+     @param n[] -> array that contains a list of integers
+     @param nSize -> number that represents the size of the array
      */
     @Override
-    public int[] findNumbers(int[] n, int nSize){
+    public int[] findNumbers(int[] n, int nSize) {
         int controller = 0;
         int[] newN = new int[nSize];
-        if(nSize == 1){
-            newN[0] = n[0];
-        } else{
-            for(int i = 1; i < nSize; i++){
-                if(n[i] >= n[i-1] && n[i] >= n[i + 1]){
+        for(int i = 0; i < nSize; i++) {
+            //Verify if we can already take the elements from array to don't do one exception
+            if(i >= 1 && i <= nSize - 2) {
+                int temp = n[i - 1];
+                int temp2 = n[i + 1];
+                if (verifyPeak(temp, n[i], temp2)) {
                     newN[controller] = n[i];
                     controller++;
                 }
@@ -34,26 +50,30 @@ public class Peaks extends Places{
         return newN;
     }
 
-    /* How many castles we'll be able to construct
-        @param n[] -> array that contains a list of integers
-        @return result -> A list which contain how many castles we can construct
+    /*Find the number of castles that can be construed
+     @param n[] -> array that contains a list of integers
      */
     @Override
-    public int castlesNumbers(int n[]){
+    public int castlesNumbers(int n[]) {
         int result = 0;
-
-        for(int i = 0; i < n.length; i++){
-            if(n[i] != 0 && n[i] != n[i + 1]){
-                result++;
+        if(n.length == 1) {
+            result++;
+        } else {
+            //See all elements of array
+            for(int i = 0; i < n.length; i++) {
+                //Check if the element of array is the same and check if it's different from zero
+                if(n[i] != 0 && n[i] != n[i + 1]) {
+                    result++;
+                }
             }
         }
         return result;
     }
 
-    public void test(){
-        System.out.println(Arrays.toString(findNumbers(n, n.length)));
-        int[] n2 = findNumbers(n, n.length);
+    public void test() {
+        System.out.println(Arrays.toString(this.n));
+        int[] n2 = findNumbers(this.n, this.n.length);
         setCastles(castlesNumbers(n2));
-        System.out.println("In this array we can construct" + castlesNumbers(n2) + " castles");
+        System.out.println("In this array we can construct " + getCastles() + " castles in the peak");
     }
 }

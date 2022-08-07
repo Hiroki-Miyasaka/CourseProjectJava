@@ -7,9 +7,18 @@ public class Judge {
     private ArrayList<Transformer> autobots;
     private ArrayList<Transformer> deceptions;
 
-    public Judge(ArrayList<Transformer> autobots, ArrayList<Transformer> deceptions) {
-        this.autobots = autobots;
-        this.deceptions = deceptions;
+    public Judge() {
+        this.autobots = new ArrayList<>();
+        this.deceptions = new ArrayList<>();
+//        this.autobots = autobots;
+//        this.deceptions = deceptions;
+    }
+
+    public void addIntoListDecption(Transformer deception) {
+        autobots.add(deception);
+    }
+    public void addIntoListAutobot(Transformer autobot) {
+        deceptions.add(autobot);
     }
 
     public void printInformationOfResult(){
