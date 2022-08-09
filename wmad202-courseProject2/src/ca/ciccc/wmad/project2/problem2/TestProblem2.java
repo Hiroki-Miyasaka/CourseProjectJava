@@ -58,6 +58,20 @@ public class TestProblem2 {
     public static void test() throws FileNotFoundException {
         ReadFile();
         judge.printInformationOfResult();
+
+
+
+//        ArrayList<Transformer> t = judge.getAutobots();
+//        ArrayList<Transformer> d = judge.getDeceptions();
+
+//        for(Transformer s: t){
+//            System.out.println(s.getNameOfRobot());
+//        }
+//
+//        for(Transformer r: d){
+//            System.out.println(r.getNameOfRobot());
+//        }
+
         /*
         Transformer e = new Transformer("e","a",4,5,5,3,2,9,9,1);
         Transformer q = new Transformer("q","d",1,2,3,4,5,2,7,8);

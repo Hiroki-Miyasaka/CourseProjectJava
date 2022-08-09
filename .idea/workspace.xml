@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="486e8fdf-9e28-44ae-a810-cfa17b21c460" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/wmad202-exam/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-exam/src/ca/ciccc/wmad/exam/main/ExamDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-exam/src/ca/ciccc/wmad/exam/problem5/Assignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-exam/src/ca/ciccc/wmad/exam/problem5/Directory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-exam/src/ca/ciccc/wmad/exam/problem5/Ellipse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-exam/src/ca/ciccc/wmad/exam/problem5/Lectures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-exam/src/ca/ciccc/wmad/exam/problem5/TestProblem5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-exam/src/ca/ciccc/wmad/exam/problem5/Url.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-exam/src/ca/ciccc/wmad/exam/problem6/TestProblem6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-exam/src/ca/ciccc/wmad/exam/problem6/ZeroIndexArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wmad202-exam/wmad202-exam.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-2022/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-2022/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wmad202-2022/src/ca/ciccc/main/WMAD202Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-2022/src/ca/ciccc/main/WMAD202Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wmad202-2022/wmad202-2022.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-2022/wmad202-2022.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wmad202-courseProject2/src/ca/ciccc/wmad/project2/problem2/Judge.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-courseProject2/src/ca/ciccc/wmad/project2/problem2/Judge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wmad202-courseProject2/src/ca/ciccc/wmad/project2/problem2/TestProblem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/wmad202-courseProject2/src/ca/ciccc/wmad/project2/problem2/TestProblem2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

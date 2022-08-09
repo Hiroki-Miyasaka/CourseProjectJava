@@ -21,6 +21,14 @@ public class Judge {
         deceptions.add(autobot);
     }
 
+    public ArrayList<Transformer> getAutobots() {
+        return autobots;
+    }
+
+    public ArrayList<Transformer> getDeceptions() {
+        return deceptions;
+    }
+
     public void printInformationOfResult(){
 
         Battle b = new Battle();

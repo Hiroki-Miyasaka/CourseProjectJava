@@ -76,7 +76,7 @@ public class Battle implements Rules{
         if(autobots.size() >= deceptions.size()) tempBattles = deceptions.size();
         else tempBattles = autobots.size();
 
-        int countBattles = 0;
+        int countBattles = 1;
 
         for(int i = 0; i < tempBattles; i++){
             Transformer autobot = autobots.get(i);
