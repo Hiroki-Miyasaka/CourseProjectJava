@@ -7,8 +7,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="wmad202-courseProject1" />
-    <orderEntry type="module" module-name="wmad202-courseProject2" />
-    <orderEntry type="module" module-name="wmad202-exam" />
   </component>
 </module>
